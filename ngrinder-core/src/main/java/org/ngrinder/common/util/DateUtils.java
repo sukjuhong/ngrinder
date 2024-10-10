@@ -49,8 +49,8 @@ public abstract class DateUtils {
 	/**
 	 * Get the time in long format : "yyyyMMddHHmmss".
 	 *
-	 * @param date	date to be format
-	 * @return time time in format of long type
+	 * @param date	date to be formatted
+	 * @return time in format of long type
 	 */
 	public static long getCollectTimeInLong(Date date) {
 		SimpleDateFormat collectTimeFormat = new SimpleDateFormat("yyyyMMddHHmmss");
